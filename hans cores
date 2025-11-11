@@ -1,0 +1,27 @@
+import time
+import random
+
+# Lista de cores para o programa "adivinhar"
+cores = ["vermelho", "azul", "verde", "amarelo", "roxo", "laranja", "rosa", "preto", "branco"]
+
+print("🎨 Pense em uma cor... qualquer cor! Mas não me diga qual é! 😏")
+input("Quando tiver escolhido, aperte Enter para continuar...")
+
+print("Perfeito! Agora... respire fundo. 🧘‍♂️")
+time.sleep(1.5)
+print("Estou tentando captar as ondas cromáticas do seu pensamento... 🌈")
+time.sleep(2)
+input("Concentre-se na cor e aperte Enter quando estiver pronto...")
+
+print("Hmm... sinto uma vibração... algo forte, vibrante... talvez... uma pista? 👀")
+time.sleep(2)
+print("Espera, estou quase lá... 🎩✨")
+time.sleep(2)
+
+# Escolhe aleatoriamente uma cor da lista
+cor_adivinhada = random.choice(cores)
+
+print()
+print(f"Eu vejo claramente... a cor {cor_adivinhada.upper()}! 🎨✨")
+print("Acertei? 😄 Se não, talvez o seu pensamento tenha sido muito rápido pra mim!")
+print("Mas não se preocupe... minha mágica de cores ainda está em treinamento! 🪄😂")
