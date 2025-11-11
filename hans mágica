@@ -1,0 +1,20 @@
+import time
+
+print("🔮 Pense em um número entre 1 e 10... mas não diga pra mim!")
+input("Quando você tiver o número na cabeça, aperte Enter para continuar...")
+
+print("Certo! Agora eu vou usar meus poderes místicos (e um pouco de teatro). 😏")
+time.sleep(1.3)
+print("Sinta a tensão... vou concentrar minhas energias numerológicas. ✨")
+time.sleep(1.3)
+input("Uma última pausa dramática — aperte Enter quando estiver pronto...")
+
+# Aqui decidimos qual número 'adivinhar'.
+# Pode ser qualquer número de 1 a 10; escolhi 7 porque é o 'número sortudo' clássico.
+adivinhado = 7
+
+print()
+print("...")
+time.sleep(1)
+print(f"Eu tenho uma forte sensação de que o seu número é... {adivinhado}! 🎩✨")
+print("Acertou? Se não, blâme minhas habilidades de mágico iniciante — ou diga que a mágica falhou por hoje. 😅")
