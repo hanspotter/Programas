@@ -1,0 +1,40 @@
+import time
+import sys
+
+def escrever_devagar(texto, velocidade=0.05):
+    for letra in texto:
+        sys.stdout.write(letra)
+        sys.stdout.flush()
+        time.sleep(velocidade)
+    print()  # pula linha no final
+
+print("📖 Vamos criar uma história completamente maluca! 😜")
+print("Responda as perguntas abaixo com criatividade!\n")
+
+# Pedindo as 6 palavras ao usuário
+lugar = input("🌍 Diga um lugar: ")
+pessoa_famosa = input("⭐ Diga o nome de uma pessoa famosa: ")
+objeto = input("🎒 Diga o nome de um objeto: ")
+cor = input("🎨 Diga uma cor: ")
+verbo = input("⚡ Diga um verbo (ação): ")
+numero = input("🔢 Diga um número: ")
+
+print("\n✨ Preparando sua história maluca...\n")
+
+
+# Montando a história com f-string
+historia = f"""
+Um dia, em {lugar}, {pessoa_famosa} acordou e percebeu algo inacreditável:
+seu {objeto} estava completamente pintado de {cor}! 😱
+
+Sem pensar duas vezes, ele(a) decidiu {verbo} exatamente {numero} vezes
+para tentar entender o que estava acontecendo.
+
+Mas o mistério nunca foi resolvido... e até hoje,
+dizem que o {objeto} colorido ainda aparece por aí assustando curiosos! 👻
+"""
+escrever_devagar(historia, 0.07)
+
+# Exibindo o resultado final
+print(historia)
+print("😂 Fim da história! Espero que tenha se divertido criando sua maluquice literária! ✨")
